@@ -1,0 +1,26 @@
+{
+  "name": "game-dev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files './**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandre-pod/game-dev.git"
+  },
+  "author": "",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/alexandre-pod/game-dev/issues"
+  },
+  "homepage": "https://github.com/alexandre-pod/game-dev#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
